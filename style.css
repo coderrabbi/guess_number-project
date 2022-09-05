@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(51, 51, 51);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.randomoddeven {
+  margin: 0 auto;
+  height: 389px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 500px;
+
+  margin-top: 37px;
+  border-radius: 20px;
+  border-radius: 47px;
+  background: #e0e0e0;
+  box-shadow: inset -22px -22px 44px #bebebe, inset 22px 22px 44px #ffffff;
+}
+.forInput {
+  margin-top: 100px;
+}
+input.randomNum {
+  padding: 10px 10px;
+  border: 1px solid rgb(139, 139, 139);
+  margin-bottom: 15px;
+  border-radius: 10px;
+  text-align: center;
+  color: #323434;
+  border-radius: 25px;
+  background: linear-gradient(225deg, #cacaca, #f0f0f0);
+  box-shadow: -7px 7px 14px #c3c3c3, 7px -7px 14px #fdfdfd;
+}
+.randomNum:active {
+  border: 1px solid rgb(139, 139, 139);
+  border-radius: 10px;
+}
+button#submitBtn {
+  padding: 14px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+  background: #1ef79d;
+  box-shadow: inset 8px -8px 16px #c3c3c3, inset -8px 8px 16px #fdfdfd;
+  transition: 0.2s;
+  font-size: 18px;
+}
+/* input#randomNum:focus-visible {
+    border:1px solid rgb(139, 139, 139);
+    outline:none;
+    border-radius:10px; */
+
+input.randomNum:focus {
+  border: 1px solid rgb(139, 139, 139);
+  outline: none;
+  border-radius: 10px;
+}
+
+button#submitBtn:focus {
+  transform: scale(0.92);
+  outline: 0px;
+}
